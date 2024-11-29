@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #92d13c;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}
+
+.footer p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fffbe6; /* Slightly lighter shade on hover */
+}
+
+/* Responsive footer for smaller devices */
+@media (max-width: 768px) {
+  .footer {
+      padding: 15px;
+      font-size: 14px;
+  }
+}

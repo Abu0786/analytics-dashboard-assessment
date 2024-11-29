@@ -1,0 +1,19 @@
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: #92d13c;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+.header span {
+    letter-spacing: 1px;
+}
+
+.header:hover {
+    background-color: #77b02d; 
+    transition: background-color 0.3s ease;
+}

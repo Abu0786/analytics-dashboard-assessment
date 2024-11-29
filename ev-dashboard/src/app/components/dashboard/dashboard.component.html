@@ -1,0 +1,30 @@
+<div class="dashboard-container">
+  <mat-toolbar class="dashboard-header">
+    <span>Electric Vehicle Dashboard</span>
+  </mat-toolbar>
+
+
+  <div class="dashboard-content">
+    <div class="manage">
+      <h2>Dashboard Insights</h2>
+      <button mat-raised-button routerLink="/">Back To Analytics Dashboard</button>
+    </div>
+    <p>Welcome to the dashboard! Here you will find various insights regarding electric vehicle data.</p>
+    <div class="chart-container">
+      <h3>EV Growth Trend</h3>
+      <canvas id="evGrowthChart"></canvas>
+    </div>
+
+    <!-- Chart: EV Population by Region -->
+    <div class="chart-container">
+      <h3>EV Population by Region</h3>
+      <canvas id="evRegionChart"></canvas>
+    </div>
+
+    <div class="chart-container pie-chart">
+      <h3>Distribution of Electric Vehicle Types in the Dataset</h3>
+      <canvas id="evVehicleTypeChart"></canvas>
+    </div>
+
+  </div>
+</div>
